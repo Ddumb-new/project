@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiwi</title>
+    <link rel="stylesheet" href="shop.css">
+    <script src="nav.js" defer></script>
+</head>
+<body>
+    
+    <header>
+        
+        <nav>
+            <div class="nav-container">
+                <div class="shop-name">
+                    <img src="kiwi.png" alt="Shop Logo" class="logo">
+                    <a href="#home" id="home-link">Mhemhe's KIWI</a>
+                </div>
+                <ul>
+                    <li><a href="#" id="home-nav">Home</a></li>
+                    <li><a href="#" id="shop-nav">Shop</a></li>
+                    <li><a href="#" id="about-nav">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+   
+    <main>
+        <h1>"Experience the wholesome goodness of our organically cultivated Kiwi, nurtured with utmost care and dedication."</h1>
+       <br>
+       <br>
+        <section id="shop">
+            <div class="product-grid">
+                
+                <div class="product" data-id="1" onclick="redirectToCheckout(event)">
+                        <img src="kiwi 1.png" alt="Product 1" class="product-image">
+                        <h2>Green Kiwi (Actinidia deliciosa ‘Hayward’)</h2>
+                        <p>The most common commercially grown kiwi variety, characterized by its oval shape, fuzzy skin, and light green or golden flesh.</p>
+                        <p>Price: <b>$10/lb</b></p>
+                        <button class="addcart">Add to cart</button>
+                    
+                </div>
+              
+                    <div class="product" data-id="2" onclick="redirectToCheckout(event)">
+                        <img src="kiwi 2.png" alt="Product 2" class="product-image">
+                        <h2>Gold Kiwi (Gold3)</h2>
+                        <p> Commercially grown variety, with a golden flesh and a sweeter taste than the green kiwi.</p>
+                        <p>Price: <b>$20/lb</b></p>
+                        <button class="addcart">Add to cart</button>
+                    </div>
+                
+
+                
+                    <div class="product" data-id="3" onclick="redirectToCheckout(event)">
+                        <img src="kiwi 3.png" alt="Product 3" class="product-image">
+                        <h2>Red Kiwi</h2>
+                        <p> A newer, variety with a red flesh, although its availability is limited.</p>
+                        <p>Price: <b>$15/lb</b></p>
+                        <button class="addcart">Add to cart</button>
+                    </div>
+                
+                    <div class="product"data-id="4" onclick="redirectToCheckout(event)">
+                        <img src="kiwi 4.png" alt="Product 4" class="product-image">
+                        <h2>Hardy Kiwi (Actinidia arguta)</h2>
+                        <p>A type of kiwi with smaller, hairless fruits, often referred to as kiwi berries or mini kiwis. They are edible whole, without peeling, and are known for their hardiness</p>
+                        <p>Price: <b>$32/lb</b></p>
+                        <button class="addcart">Add to cart</button>
+                    </div>
+                
+
+            </div>
+        </section>
+        <!-- Cart Summary Section -->
+        <section id="cart-summary">
+          <h2>Cart Summary</h2>
+          <ul class="cart-items"></ul>
+          <p class="total-price">Total: $0</p>
+          <button class="place-order">Place Order</button>
+      </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Mhemhe's Kiwi. All rights reserved.</p>
+    </footer>
+    <script src="cart.js"></script>
+
+
+</body>
+</html>

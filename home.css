@@ -1,0 +1,203 @@
+
+
+.introduction {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.intro-image {
+    padding: 300px;
+    width: 50%;
+    max-width: 900px; /* Increase max-width to make the image larger */
+    margin-right: 20px;
+    border-radius: 20px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add a shadow for better visual effect */
+}
+
+
+.intro-text {
+    width: 50%;
+}
+
+.intro-text h2 {
+    margin-top: 0;
+    color: orange; /* Set the color of h2 to orange */
+    font-family: 'Arial', sans-serif; /* Adjust the font as needed */
+    text-align: center;
+}
+
+.intro-text p {
+    margin: 10px 0;
+    color: white; /* Set the color of p to white */
+    font-family: 'Verdana', sans-serif; /* Adjust the font as needed */
+    text-align: justify;
+}
+
+.featured-products {
+    margin-bottom: 40px;
+    
+}
+
+.featured-products h2 {
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: orange; /* Set the color of h2 to orange */
+    font-family: 'Arial', sans-serif; /* Adjust the font as needed */
+    text-align: center;
+}
+.featured-products p{
+    margin: 10px 0;
+    color: white; /* Set the color of p to white */
+    font-family: 'Verdana', sans-serif; /* Adjust the font as needed */
+    text-align: center;
+
+}
+header.banner {
+    position: relative;
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: #fff;
+}
+
+.banner-text {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    right:50px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.banner-text h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.banner-text p {
+    margin: 0;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(1,86,125,1) 82%, rgba(0,212,255,1) 100%);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.shop-name {
+    display: flex;
+    align-items: center;
+}
+
+.shop-name .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.shop-name a {
+    color: #ffcc00;
+    font-family: 'Cursive', sans-serif;
+    font-size: 1.8em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+.carousel-container {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+}
+
+.carousel-slide img {
+    min-width: 20%; /* Adjust this percentage based on how many images you want to display at once */
+    border-radius: 10px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

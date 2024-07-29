@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(1,86,125,1) 82%, rgba(0,212,255,1) 100%);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.shop-name {
+    display: flex;
+    align-items: center;
+}
+
+.shop-name .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.shop-name a {
+    color: #ffcc00;
+    font-family: 'Cursive', sans-serif;
+    font-size: 1.8em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+.product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.product-image:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+}
+p{
+    color: white;
+    font-style: italic;
+}
+h2{
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+#cart{
+    margin-top: 20px;
+}
+.cart-items{
+    list-style: none;
+    padding: 0;
+}
+.cart-items li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+
+}
+.total-price {
+    font-weight: bold;
+    text-align: right;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #555;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
