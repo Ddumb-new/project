@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('home-nav').addEventListener('click', function() {
-        window.location.href = 'home.html';
+    document.getElementById('index-nav').addEventListener('click', function() {
+        window.location.href = 'index.html';
     });
 
     document.getElementById('shop-nav').addEventListener('click', function() {
